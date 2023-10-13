@@ -1,0 +1,183 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width:90%;
+	padding:0 10px;
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.col{
+	width:100%;
+	padding: 0 15px;
+}
+.col1{
+	width:8.33%;
+	padding:0 15px;
+}
+
+.col2{
+	width:16.66%;
+	padding:0 15px;
+}
+.col3{
+	width:25%;
+	padding:0 15px;
+}
+
+
+.col4{
+	width:33.33%;
+	padding:0 15px;
+}
+
+
+.col5{
+	width:41.66%;
+	/* padding:0 15px; */
+}
+
+
+.col6{
+	width:50%;
+	padding:0 15px;
+}
+
+.col7{
+	width:58.33%;
+	padding:0 15px;
+}
+
+
+.col8{
+	width:66.66%;
+	padding:0 15px;
+}
+
+
+.col9{
+	width:75%;
+	padding:0 15px;
+}
+
+
+.col10{
+	width:83.33%;
+	padding:0 15px;
+}
+
+
+.col11{
+	width:91.66%;
+	padding:0 15px;
+}
+
+
+.col12{
+	width:100%;
+	/* padding:0 10px; */
+}
+
+.heading_sec{
+	text-align:center;
+}
+.heading_sec h1{
+	color:
+}
+.form_sec{
+	padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffdae0;
+}
+
+.form_sec input{
+	display:block;
+	margin:10px 0;
+	padding:10px 30px;
+	width: 80%;
+}
+
+.form_sec input[placeholder]{
+	border-radius:10px;
+	border:none;
+	outline:0;
+}
+
+.form_sec textarea{
+	width: 80%;
+    padding: 10px 30px;
+    height: 100px;
+	display:block;
+	margin:10px 0;
+	border:none;
+	border-radius:10px;
+	outline:0;
+}
+
+.btn_sec button{
+	padding: 10px 35px;
+    margin: 10px;
+    color: #fff;
+    background-color: #9e0024;
+    border: none;
+    border-radius: 5px;
+	cursor:pointer;
+}
+
+.details_sec{
+	margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 9px;
+    border: none;
+}
+
+.details_sec h1{
+	padding: 10px;
+    color: red;
+}
+
+.details_sec p{
+	padding: 10px;
+	color:gray;
+}
+.details_sec h5{
+	padding: 10px;
+	color:blue;
+}
+
+.button_sec{
+	padding: 10px;
+}
+
+.delete_btn{
+	color:#fff;
+	background-color:gold;
+	padding:8px 30px;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+	margin:0 5px;
+}
+.edit_btn{
+	color: #fff;
+    background-color: #52d230;
+    padding: 8px 38px;
+    border: none;
+    border-radius: 10px;
+	cursor:pointer;
+	margin:0 5px;
+}
+
+.btn{
+	display:none;
+}
